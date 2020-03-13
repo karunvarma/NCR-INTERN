@@ -1,0 +1,112 @@
+//#include<bits/stdc++.h> 
+#include<stack>
+#include<iostream>
+using namespace std;
+
+
+// stack usign linkedlist  operations
+// push()
+// pop();
+// isempty();
+
+
+// LIFO 
+// (1) we can add at end and remove at end 
+// (2) we can add at front and remove at front;
+
+
+//  i  will use  option (2)
+
+struct Node
+{
+	int data;
+	Node* next;
+	Node(int val)
+	{
+		data = val;
+		next = NULL;
+	}
+};
+
+
+
+
+
+Node* push(Node* head, int data)
+{
+	Node* newNode = new Node(data);
+	if (head == NULL)
+	{
+		head = newNode;
+	}
+	else
+	{
+		newNode->next = head;
+		head = newNode;
+	}
+	return head;
+}
+
+Node* pop(Node* head)
+{
+	if (!head) return head;
+	Node* curr = head;
+	head = head->next;
+	delete(curr);
+	return head;
+}
+
+void print_stack(Node* head)
+{
+	Node* curr = head;
+	while (curr)
+	{
+		cout << curr->data << endl;
+		curr = curr->next;
+	}
+	cout << endl;
+}
+
+int main()
+{
+
+	Node* head = NULL;
+	// head=push(head,1);
+	// head=push(head,2);
+	// head=push(head,3);
+	// head=push(head,4);
+	// print_stack(head);
+	// head=pop(head);
+	// head=pop(head);
+	// print_stack(head);
+	cout << "----------------" << endl;
+	cout << "\n1.push  \n2.pop \n3.display\n4.exit" << endl;
+	int ch;
+	while (true)
+	{
+		cout << "enter choice" << endl;
+		cin >> ch;
+
+		if (ch == 1)
+		{
+			cout << "enter value" << endl;
+			int val;
+			cin >> val;
+			head = push(head, val);
+		}
+		else if (ch == 2)
+		{
+			if (head==NULL) cout << "empty" << endl;
+			else head = pop(head);
+		}
+		else if (ch == 3)
+		{
+			cout << "stack contents is" << endl;
+			print_stack(head);
+			cout << endl;
+		}
+		else break;
+
+	}
+	return 0;
+}
