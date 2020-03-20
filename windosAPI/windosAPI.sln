@@ -9,7 +9,7 @@ Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "datatypes", "datatypes\data
 EndProject
 Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "thread creation", "thread creation\thread creation.vcxproj", "{F39E6B2B-34C1-4006-9B40-64F96ABF3648}"
 EndProject
-Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "1.creating_child_process", "1.creating_child_process\1.creating_child_process.vcxproj", "{223DDB28-9142-4160-82D8-9B3329AE6175}"
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "creating_child_process", "1.creating_child_process\1.creating_child_process.vcxproj", "{223DDB28-9142-4160-82D8-9B3329AE6175}"
 EndProject
 Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "helloworld", "helloworld\helloworld.vcxproj", "{929C4557-FF82-4912-869C-22A7C1C17061}"
 EndProject
@@ -25,9 +25,15 @@ Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "thread_suspended", "thread_
 EndProject
 Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "ExitThread", "ExitThread\ExitThread.vcxproj", "{7FA1ABDE-6089-4BB1-98F4-BD84DD40750F}"
 EndProject
-Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "TCP server", "TCP server\TCP server.vcxproj", "{7E375223-F937-474A-94F8-4EFDDF30A602}"
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "server socket", "TCP server\TCP server.vcxproj", "{7E375223-F937-474A-94F8-4EFDDF30A602}"
 EndProject
 Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "TCP  server 1", "TCP  server 1\TCP  server 1.vcxproj", "{11B65564-857C-452F-A795-D2ACB53D645A}"
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "create two child process", "create two child process\create two child process.vcxproj", "{EA2088C4-4E4B-46CA-A8E6-59851979F0F8}"
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "event", "event\event.vcxproj", "{87786B45-7013-42AF-871A-EE02FF36D1B5}"
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "add two numbers using thread", "add two numbers using thread\add two numbers using thread.vcxproj", "{0FAD1C12-2D42-40D0-8F8F-1D478EC92690}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -141,6 +147,30 @@ Global
 		{11B65564-857C-452F-A795-D2ACB53D645A}.Release|x64.Build.0 = Release|x64
 		{11B65564-857C-452F-A795-D2ACB53D645A}.Release|x86.ActiveCfg = Release|Win32
 		{11B65564-857C-452F-A795-D2ACB53D645A}.Release|x86.Build.0 = Release|Win32
+		{EA2088C4-4E4B-46CA-A8E6-59851979F0F8}.Debug|x64.ActiveCfg = Debug|x64
+		{EA2088C4-4E4B-46CA-A8E6-59851979F0F8}.Debug|x64.Build.0 = Debug|x64
+		{EA2088C4-4E4B-46CA-A8E6-59851979F0F8}.Debug|x86.ActiveCfg = Debug|Win32
+		{EA2088C4-4E4B-46CA-A8E6-59851979F0F8}.Debug|x86.Build.0 = Debug|Win32
+		{EA2088C4-4E4B-46CA-A8E6-59851979F0F8}.Release|x64.ActiveCfg = Release|x64
+		{EA2088C4-4E4B-46CA-A8E6-59851979F0F8}.Release|x64.Build.0 = Release|x64
+		{EA2088C4-4E4B-46CA-A8E6-59851979F0F8}.Release|x86.ActiveCfg = Release|Win32
+		{EA2088C4-4E4B-46CA-A8E6-59851979F0F8}.Release|x86.Build.0 = Release|Win32
+		{87786B45-7013-42AF-871A-EE02FF36D1B5}.Debug|x64.ActiveCfg = Debug|x64
+		{87786B45-7013-42AF-871A-EE02FF36D1B5}.Debug|x64.Build.0 = Debug|x64
+		{87786B45-7013-42AF-871A-EE02FF36D1B5}.Debug|x86.ActiveCfg = Debug|Win32
+		{87786B45-7013-42AF-871A-EE02FF36D1B5}.Debug|x86.Build.0 = Debug|Win32
+		{87786B45-7013-42AF-871A-EE02FF36D1B5}.Release|x64.ActiveCfg = Release|x64
+		{87786B45-7013-42AF-871A-EE02FF36D1B5}.Release|x64.Build.0 = Release|x64
+		{87786B45-7013-42AF-871A-EE02FF36D1B5}.Release|x86.ActiveCfg = Release|Win32
+		{87786B45-7013-42AF-871A-EE02FF36D1B5}.Release|x86.Build.0 = Release|Win32
+		{0FAD1C12-2D42-40D0-8F8F-1D478EC92690}.Debug|x64.ActiveCfg = Debug|x64
+		{0FAD1C12-2D42-40D0-8F8F-1D478EC92690}.Debug|x64.Build.0 = Debug|x64
+		{0FAD1C12-2D42-40D0-8F8F-1D478EC92690}.Debug|x86.ActiveCfg = Debug|Win32
+		{0FAD1C12-2D42-40D0-8F8F-1D478EC92690}.Debug|x86.Build.0 = Debug|Win32
+		{0FAD1C12-2D42-40D0-8F8F-1D478EC92690}.Release|x64.ActiveCfg = Release|x64
+		{0FAD1C12-2D42-40D0-8F8F-1D478EC92690}.Release|x64.Build.0 = Release|x64
+		{0FAD1C12-2D42-40D0-8F8F-1D478EC92690}.Release|x86.ActiveCfg = Release|Win32
+		{0FAD1C12-2D42-40D0-8F8F-1D478EC92690}.Release|x86.Build.0 = Release|Win32
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
