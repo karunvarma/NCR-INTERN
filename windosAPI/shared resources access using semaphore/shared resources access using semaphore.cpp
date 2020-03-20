@@ -12,10 +12,42 @@ using namespace std;
 HANDLE semaphore;
 
 
+
+
+
+
 DWORD WINAPI CallBack(LPVOID z)
 {
+	
 
-	DWORD res=WaitForSingleObject(semaphore, INFINITE);
+	
+
+	// check if a semaphore is signalled or non signalled state
+	DWORD res=WaitForSingleObject(semaphore, 0);
+
+	// if yes
+	if (res == WAIT_OBJECT_0)
+	{
+
+		cout <<  GetCurrentThreadId() << endl;
+		// critical section
+
+
+		if (ReleaseSemaphore(
+			semaphore,
+			1,
+			NULL
+		) == 0)
+		{
+			cout << "Release semaphore error: " << GetLastError() << endl;
+		}
+
+	}
+	else if (res == WAIT_TIMEOUT) {
+		cout << "timeout for thread id is" << GetCurrentThreadId() << endl;
+	}
+	
+
 	return 0;
 }
 
@@ -27,11 +59,12 @@ int main()
 {
 	
 	HANDLE Handles[4];
+	DWORD tid[4];
 
 
 	semaphore = CreateSemaphore(
 		NULL, // security attributes
-		1, // initial state
+		2, // initial state
 		2, // maximum resources
 		NULL
 	);
@@ -50,7 +83,7 @@ int main()
 			CallBack,
 			NULL,
 			0,
-			0
+			&tid[i]
 		);
 
 		if (Handles[i] == NULL) {
@@ -61,7 +94,10 @@ int main()
 
 	WaitForMultipleObjects(4, Handles, TRUE, INFINITE);
 
+	
+
 	for (int i = 0; i < 4; i++) {
+		cout << i <<" "<< "thread id is " << tid[i]<< endl;
 		CloseHandle(Handles[i]);
 	}
 

@@ -35,6 +35,8 @@ Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "increment value of var by t
 EndProject
 Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "shared resources access using semaphore", "shared resources access using semaphore\shared resources access using semaphore.vcxproj", "{372A3E25-0BD3-47EE-82C6-09F94D2C1501}"
 EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "return value of multiple wait objects", "return value of multiple wait objects\return value of multiple wait objects.vcxproj", "{C9AB62A7-5B6C-450E-B9B9-F8B17EFFEE4B}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|x64 = Debug|x64
@@ -171,6 +173,14 @@ Global
 		{372A3E25-0BD3-47EE-82C6-09F94D2C1501}.Release|x64.Build.0 = Release|x64
 		{372A3E25-0BD3-47EE-82C6-09F94D2C1501}.Release|x86.ActiveCfg = Release|Win32
 		{372A3E25-0BD3-47EE-82C6-09F94D2C1501}.Release|x86.Build.0 = Release|Win32
+		{C9AB62A7-5B6C-450E-B9B9-F8B17EFFEE4B}.Debug|x64.ActiveCfg = Debug|x64
+		{C9AB62A7-5B6C-450E-B9B9-F8B17EFFEE4B}.Debug|x64.Build.0 = Debug|x64
+		{C9AB62A7-5B6C-450E-B9B9-F8B17EFFEE4B}.Debug|x86.ActiveCfg = Debug|Win32
+		{C9AB62A7-5B6C-450E-B9B9-F8B17EFFEE4B}.Debug|x86.Build.0 = Debug|Win32
+		{C9AB62A7-5B6C-450E-B9B9-F8B17EFFEE4B}.Release|x64.ActiveCfg = Release|x64
+		{C9AB62A7-5B6C-450E-B9B9-F8B17EFFEE4B}.Release|x64.Build.0 = Release|x64
+		{C9AB62A7-5B6C-450E-B9B9-F8B17EFFEE4B}.Release|x86.ActiveCfg = Release|Win32
+		{C9AB62A7-5B6C-450E-B9B9-F8B17EFFEE4B}.Release|x86.Build.0 = Release|Win32
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
