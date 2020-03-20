@@ -31,6 +31,8 @@ Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "create two child process", 
 EndProject
 Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "add two numbers using thread", "add two numbers using thread\add two numbers using thread.vcxproj", "{0FAD1C12-2D42-40D0-8F8F-1D478EC92690}"
 EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "increment value of var by two threads", "increment value of var by two threads\increment value of var by two threads.vcxproj", "{D07DDFFD-3DA9-46B9-88A1-19D731E9F8E7}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|x64 = Debug|x64
@@ -151,6 +153,14 @@ Global
 		{0FAD1C12-2D42-40D0-8F8F-1D478EC92690}.Release|x64.Build.0 = Release|x64
 		{0FAD1C12-2D42-40D0-8F8F-1D478EC92690}.Release|x86.ActiveCfg = Release|Win32
 		{0FAD1C12-2D42-40D0-8F8F-1D478EC92690}.Release|x86.Build.0 = Release|Win32
+		{D07DDFFD-3DA9-46B9-88A1-19D731E9F8E7}.Debug|x64.ActiveCfg = Debug|x64
+		{D07DDFFD-3DA9-46B9-88A1-19D731E9F8E7}.Debug|x64.Build.0 = Debug|x64
+		{D07DDFFD-3DA9-46B9-88A1-19D731E9F8E7}.Debug|x86.ActiveCfg = Debug|Win32
+		{D07DDFFD-3DA9-46B9-88A1-19D731E9F8E7}.Debug|x86.Build.0 = Debug|Win32
+		{D07DDFFD-3DA9-46B9-88A1-19D731E9F8E7}.Release|x64.ActiveCfg = Release|x64
+		{D07DDFFD-3DA9-46B9-88A1-19D731E9F8E7}.Release|x64.Build.0 = Release|x64
+		{D07DDFFD-3DA9-46B9-88A1-19D731E9F8E7}.Release|x86.ActiveCfg = Release|Win32
+		{D07DDFFD-3DA9-46B9-88A1-19D731E9F8E7}.Release|x86.Build.0 = Release|Win32
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
