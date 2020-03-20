@@ -19,8 +19,6 @@ Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "3", "3\3.vcxproj", "{F8B448
 EndProject
 Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "4", "4\4.vcxproj", "{9832A68B-ECBA-4C17-9938-B49EA8C9338A}"
 EndProject
-Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "readFile", "readFile\readFile.vcxproj", "{D0AEF4AA-AC02-4454-AE31-4A92132A62AD}"
-EndProject
 Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "thread_suspended", "thread_suspended\thread_suspended.vcxproj", "{9FE9CE41-CA35-4FB9-8203-8826F03A78F3}"
 EndProject
 Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "ExitThread", "ExitThread\ExitThread.vcxproj", "{7FA1ABDE-6089-4BB1-98F4-BD84DD40750F}"
@@ -30,8 +28,6 @@ EndProject
 Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "TCP  server 1", "TCP  server 1\TCP  server 1.vcxproj", "{11B65564-857C-452F-A795-D2ACB53D645A}"
 EndProject
 Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "create two child process", "create two child process\create two child process.vcxproj", "{EA2088C4-4E4B-46CA-A8E6-59851979F0F8}"
-EndProject
-Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "event", "event\event.vcxproj", "{87786B45-7013-42AF-871A-EE02FF36D1B5}"
 EndProject
 Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "add two numbers using thread", "add two numbers using thread\add two numbers using thread.vcxproj", "{0FAD1C12-2D42-40D0-8F8F-1D478EC92690}"
 EndProject
@@ -107,14 +103,6 @@ Global
 		{9832A68B-ECBA-4C17-9938-B49EA8C9338A}.Release|x64.Build.0 = Release|x64
 		{9832A68B-ECBA-4C17-9938-B49EA8C9338A}.Release|x86.ActiveCfg = Release|Win32
 		{9832A68B-ECBA-4C17-9938-B49EA8C9338A}.Release|x86.Build.0 = Release|Win32
-		{D0AEF4AA-AC02-4454-AE31-4A92132A62AD}.Debug|x64.ActiveCfg = Debug|x64
-		{D0AEF4AA-AC02-4454-AE31-4A92132A62AD}.Debug|x64.Build.0 = Debug|x64
-		{D0AEF4AA-AC02-4454-AE31-4A92132A62AD}.Debug|x86.ActiveCfg = Debug|Win32
-		{D0AEF4AA-AC02-4454-AE31-4A92132A62AD}.Debug|x86.Build.0 = Debug|Win32
-		{D0AEF4AA-AC02-4454-AE31-4A92132A62AD}.Release|x64.ActiveCfg = Release|x64
-		{D0AEF4AA-AC02-4454-AE31-4A92132A62AD}.Release|x64.Build.0 = Release|x64
-		{D0AEF4AA-AC02-4454-AE31-4A92132A62AD}.Release|x86.ActiveCfg = Release|Win32
-		{D0AEF4AA-AC02-4454-AE31-4A92132A62AD}.Release|x86.Build.0 = Release|Win32
 		{9FE9CE41-CA35-4FB9-8203-8826F03A78F3}.Debug|x64.ActiveCfg = Debug|x64
 		{9FE9CE41-CA35-4FB9-8203-8826F03A78F3}.Debug|x64.Build.0 = Debug|x64
 		{9FE9CE41-CA35-4FB9-8203-8826F03A78F3}.Debug|x86.ActiveCfg = Debug|Win32
@@ -155,14 +143,6 @@ Global
 		{EA2088C4-4E4B-46CA-A8E6-59851979F0F8}.Release|x64.Build.0 = Release|x64
 		{EA2088C4-4E4B-46CA-A8E6-59851979F0F8}.Release|x86.ActiveCfg = Release|Win32
 		{EA2088C4-4E4B-46CA-A8E6-59851979F0F8}.Release|x86.Build.0 = Release|Win32
-		{87786B45-7013-42AF-871A-EE02FF36D1B5}.Debug|x64.ActiveCfg = Debug|x64
-		{87786B45-7013-42AF-871A-EE02FF36D1B5}.Debug|x64.Build.0 = Debug|x64
-		{87786B45-7013-42AF-871A-EE02FF36D1B5}.Debug|x86.ActiveCfg = Debug|Win32
-		{87786B45-7013-42AF-871A-EE02FF36D1B5}.Debug|x86.Build.0 = Debug|Win32
-		{87786B45-7013-42AF-871A-EE02FF36D1B5}.Release|x64.ActiveCfg = Release|x64
-		{87786B45-7013-42AF-871A-EE02FF36D1B5}.Release|x64.Build.0 = Release|x64
-		{87786B45-7013-42AF-871A-EE02FF36D1B5}.Release|x86.ActiveCfg = Release|Win32
-		{87786B45-7013-42AF-871A-EE02FF36D1B5}.Release|x86.Build.0 = Release|Win32
 		{0FAD1C12-2D42-40D0-8F8F-1D478EC92690}.Debug|x64.ActiveCfg = Debug|x64
 		{0FAD1C12-2D42-40D0-8F8F-1D478EC92690}.Debug|x64.Build.0 = Debug|x64
 		{0FAD1C12-2D42-40D0-8F8F-1D478EC92690}.Debug|x86.ActiveCfg = Debug|Win32
