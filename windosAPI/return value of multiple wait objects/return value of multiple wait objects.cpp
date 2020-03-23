@@ -14,6 +14,7 @@ DWORD WINAPI timeout1(LPVOID ptr)
 {
 	return 0;
 }
+
 DWORD WINAPI timeout2(LPVOID ptr)
 {
 	return 0;

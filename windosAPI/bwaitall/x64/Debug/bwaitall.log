@@ -1,0 +1,5 @@
+﻿  bwaitall.cpp
+C:\Users\KD185138\source\repos\NCR-INTERN\windosAPI\bwaitall\bwaitall.cpp(101,9): warning C4838: conversion from 'unsigned int' to 'int' requires a narrowing conversion
+C:\Users\KD185138\source\repos\NCR-INTERN\windosAPI\bwaitall\bwaitall.cpp(102,9): warning C4838: conversion from 'unsigned int' to 'int' requires a narrowing conversion
+C:\Users\KD185138\source\repos\NCR-INTERN\windosAPI\bwaitall\bwaitall.cpp(103,10): warning C4838: conversion from 'unsigned int' to 'int' requires a narrowing conversion
+  bwaitall.vcxproj -> C:\Users\KD185138\source\repos\NCR-INTERN\windosAPI\x64\Debug\bwaitall.exe
