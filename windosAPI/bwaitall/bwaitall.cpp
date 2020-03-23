@@ -21,7 +21,7 @@ using namespace std;
 
 DWORD WINAPI callback1(LPVOID ptr)
 {
-	int stime=*((DWORD*)ptr);
+	int stime = *((DWORD*)ptr);
 	Sleep(stime);
 	cout << "thread 1 sleep for" << stime << endl;
 	return 0;
@@ -57,7 +57,7 @@ void status(DWORD stat)
 
 
 
-void createThread(BOOL waitall, DWORD time,int t1sleep,int t2sleep)
+void createThread(BOOL waitall, DWORD time, int t1sleep, int t2sleep)
 {
 	HANDLE th[2];
 	DWORD tid1, tid2;
@@ -107,7 +107,7 @@ int main()
 
 	for (int i = 0; i < 4; i++)
 	{
-		createThread(arr[i][0], arr[i][1],arr[i][2],arr[i][3]);
+		createThread(arr[i][0], arr[i][1], arr[i][2], arr[i][3]);
 	}
 
 

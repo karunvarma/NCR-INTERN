@@ -3,6 +3,8 @@
 using namespace std;
 
 
+//5. write a program which performs addition of 2 numbers where data is taken from thread and addition is performed in the other thread.
+
 
 DWORD WINAPI getNumbers(LPVOID z)
 {
