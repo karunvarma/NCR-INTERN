@@ -2,7 +2,7 @@
 #include<iostream> 
 using namespace std;
 
-
+//
 //3  Write a program to increment the value of a shared integer by two threads.
 //   Print the final value of shared integer in the process’s primary thread
 

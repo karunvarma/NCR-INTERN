@@ -2,7 +2,7 @@
 //Use semaphore object to count the no of allowed threads to access shared resources.
 //Use the shared resource for 200 ms with Sleep(200).
 //Use WaitForSingleObject to get the ownership of semaphore object
-
+//
 
 #include<Windows.h> 
 #include<iostream> 

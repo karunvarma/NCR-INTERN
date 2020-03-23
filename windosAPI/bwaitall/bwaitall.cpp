@@ -10,6 +10,8 @@
 #include <Windows.h>
 using namespace std;
 
+
+//
 // wait for multipleobjects 
 
 // count
